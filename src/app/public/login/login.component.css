@@ -1,0 +1,201 @@
+.contenedor{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 61px;
+    
+    position: absolute;
+    width: 392px;
+    height: 308px;
+    left: 503px;
+    top: 176px;
+    
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.imagen{
+    top: 37px;
+    left: 51px;
+    position: absolute;
+}
+
+.vector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 14px 20px;
+    gap: 10px;
+    
+    width: 88px;
+    height: 80px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 6px;
+
+    width: 310px;
+    height: 226px;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.parte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 310px;
+    height: 45px;
+    
+    background: rgba(217, 217, 217, 0.6);
+    border-radius: 8px;
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.contenedor_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 47px;
+    height: 45px;
+
+    background: #CACACA;
+    border-radius: 8px 0px 0px 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    
+    flex-grow: 0;
+}
+
+.contenedor_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 255px;
+    height: 45px;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.tex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 255px;
+    height: 45px;
+    background: #EDEDED;
+    border: none;
+    flex: none;
+    flex-grow: 0;
+}
+
+.tex:focus-visible{
+    outline: none;
+}
+
+.crear{
+    width: 86px;
+    height: 13px;
+    
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #0038ff9e;
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.contenedor_botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px 0px;
+    gap: 10px;
+    
+    width: 310px;
+    height: 102px;
+    
+    flex: none;
+    
+    flex-grow: 0;
+}
+
+.boton_I{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 19px;
+    gap: 10px;
+
+    width: 173px;
+    height: 40px;
+
+    background: #FFC500;
+    border-radius: 10px;
+    border: white;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.boton_O{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    gap: 10px;
+    
+    width: 176px;
+    height: 40px;
+
+    background: rgba(217, 217, 217, 0.6);
+    border-radius: 10px;
+    border: white;
+
+    flex: none;    
+    flex-grow: 0;
+}

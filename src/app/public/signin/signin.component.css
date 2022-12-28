@@ -1,0 +1,180 @@
+.contenedor{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 60px;
+
+    position: absolute;
+    width: 742px;
+    height: 483px;
+    left: 377px;
+    top: 114px;
+
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.imagen{
+    top: 37px;
+    left: 51px;
+    position: absolute;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    
+    width: 726px;
+    height: 378px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.parte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    
+    width: 680px;
+    height: 166px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    
+    width: 680px;
+    height: 73px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 300px;
+    height: 73px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.formato{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 12px;
+    
+    width: 300px;
+    height: 48px;
+    
+    background: #EDEDED;
+    border-radius: 8px;
+    border: none;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.formato_text{
+    height: 20px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    text-align: right;
+    
+    /* Secondary */
+    
+    color: #575756;
+    
+    opacity: 0.6;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contenedor_boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 26px;
+    gap: 7px;
+    
+    width: 185px;
+    height: 46px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: none;
+    
+    width: 133px;
+    height: 40px;
+    
+    background: #FFC500;
+    border-radius: 10px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+}
